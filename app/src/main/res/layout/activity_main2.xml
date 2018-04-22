@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context="com.example.android.musicalstructure.Main2Activity">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_happy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_happy"
+            android:text="@string/happy"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_love"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_love"
+            android:text="@string/love"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_work"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_work"
+            android:text="@string/work"
+            android:textColor="@color/colorAccent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_kids"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_kids"
+            android:text="@string/kids"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_party"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_party"
+            android:text="@string/party"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_sleep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_sleep"
+            android:text="@string/sleep"
+            android:textColor="@color/colorAccent" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_summer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_summer"
+            android:text="@string/summer"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_getup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_getup"
+            android:text="@string/get_up"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/button_dance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_dance"
+            android:text="@string/dance"
+            android:textColor="@color/colorAccent" />
+
+    </TableRow>
+</TableLayout>

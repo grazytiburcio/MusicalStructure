@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="happy">HAPPY</string>
+    <string name="love">LOVE</string>
+    <string name="work">WORK</string>
+    <string name="kids">KIDS</string>
+    <string name="party">PARTY</string>
+    <string name="sleep">SLEEP</string>
+    <string name="summer">SUMMER</string>
+    <string name="get_up">GET UP</string>
+    <string name="dance">DANCE</string>
+</resources>
