@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main2Activity extends AppCompatActivity {
+public class ExploreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Set the content of the activity to use the activity_main.xml layout file
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_explore);
 
-        // Find the View that shows the Main3Activity
+        // Find the View that shows the NowPlayingActivity
         Button happyButton = (Button) findViewById(R.id.button_happy);
         Button loveButton = (Button) findViewById(R.id.button_love);
         Button workButton = (Button) findViewById(R.id.button_work);
@@ -31,8 +31,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Happy Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent happyButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent happyButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(happyButtonIntent);
             }
@@ -43,8 +43,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Love Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent loveButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent loveButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(loveButtonIntent);
             }
@@ -55,8 +55,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Work Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent workButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent workButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(workButtonIntent);
             }
@@ -67,8 +67,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Kids Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent kidsButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent kidsButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(kidsButtonIntent);
             }
@@ -79,8 +79,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Party Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent partyButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent partyButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(partyButtonIntent);
             }
@@ -91,8 +91,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Sleep Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent sleepButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent sleepButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(sleepButtonIntent);
             }
@@ -103,8 +103,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Summer Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent summerButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent summerButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(summerButtonIntent);
             }
@@ -115,8 +115,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Get Up Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent getupButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent getupButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(getupButtonIntent);
             }
@@ -127,8 +127,8 @@ public class Main2Activity extends AppCompatActivity {
             // The code in this method will be executed when the Dance Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main3Activity
-                Intent danceButtonIntent = new Intent(Main2Activity.this, Main3Activity.class);
+                // Create a new intent to open the NowPlayingActivity
+                Intent danceButtonIntent = new Intent(ExploreActivity.this, NowPlayingActivity.class);
                 // Start the new activity
                 startActivity(danceButtonIntent);
             }

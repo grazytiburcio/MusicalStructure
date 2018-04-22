@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the Main2dActivity
+        // Find the View that shows the ExploreActivity
         Button getStartedbutton = (Button) findViewById(R.id.button_getStarted);
 
         // Set a click listener on that View
@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the Get Started Button is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the Main2Activity
-                Intent getStartedIntent = new Intent(MainActivity.this, Main2Activity.class);
+                // Create a new intent to open the ExploreActivity
+                Intent getStartedIntent = new Intent(MainActivity.this, ExploreActivity.class);
                 // Start the new activity
                 startActivity(getStartedIntent);
             }

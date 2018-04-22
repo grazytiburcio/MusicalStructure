@@ -3,15 +3,15 @@ package com.example.android.musicalstructure;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
-public class Main3Activity extends AppCompatActivity {
+public class NowPlayingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_nowplaying);
 
         //Create an ArrayList of songs
         ArrayList<Songs> songs = new ArrayList<Songs>();
@@ -32,7 +32,7 @@ public class Main3Activity extends AppCompatActivity {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // activity_main3.xml layout file.
+        // activity_nowplaying.xmlg.xml layout file.
         ListView listView = (ListView) findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the

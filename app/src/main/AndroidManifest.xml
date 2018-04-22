@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".ExploreActivity"
             android:label="Explore" />
         <activity
-            android:name=".Main3Activity"
+            android:name=".NowPlayingActivity"
             android:label="Now Playing">
         </activity>
     </application>
