@@ -2,14 +2,16 @@
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="5dp"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp"
-    android:paddingTop="5dp"
     android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/paddingBottom_ListView"
+    android:paddingEnd="@dimen/paddingRight_ListView"
+    android:paddingLeft="@dimen/paddingLeft_ListView"
+    android:paddingRight="@dimen/paddingRight_ListView"
+    android:paddingStart="@dimen/paddingLeft_ListView"
+    android:paddingTop="@dimen/paddingTop_ListView"
     tools:context="com.example.android.musicalstructure.NowPlayingActivity">
 
 </ListView>

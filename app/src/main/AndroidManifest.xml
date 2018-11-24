@@ -18,10 +18,10 @@
         </activity>
         <activity
             android:name=".ExploreActivity"
-            android:label="Explore" />
+            android:label="@string/activity_label_explore" />
         <activity
             android:name=".NowPlayingActivity"
-            android:label="Now Playing">
+            android:label="@string/activity_label_now_playing">
         </activity>
     </application>
 

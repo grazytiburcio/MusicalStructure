@@ -16,15 +16,15 @@ public class ExploreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_explore);
 
         // Find the View that shows the NowPlayingActivity
-        Button happyButton = (Button) findViewById(R.id.button_happy);
-        Button loveButton = (Button) findViewById(R.id.button_love);
-        Button workButton = (Button) findViewById(R.id.button_work);
-        Button kidsButton = (Button) findViewById(R.id.button_kids);
-        Button partyButton = (Button) findViewById(R.id.button_party);
-        Button sleepButton = (Button) findViewById(R.id.button_sleep);
-        Button summerButton = (Button) findViewById(R.id.button_summer);
-        Button getupButton = (Button) findViewById(R.id.button_getup);
-        Button danceButton = (Button) findViewById(R.id.button_dance);
+        Button happyButton = findViewById(R.id.button_happy);
+        Button loveButton = findViewById(R.id.button_love);
+        Button workButton = findViewById(R.id.button_work);
+        Button kidsButton = findViewById(R.id.button_kids);
+        Button partyButton = findViewById(R.id.button_party);
+        Button sleepButton = findViewById(R.id.button_sleep);
+        Button summerButton = findViewById(R.id.button_summer);
+        Button getupButton = findViewById(R.id.button_getup);
+        Button danceButton = findViewById(R.id.button_dance);
 
         // Set a click listener on Happy Button view
         happyButton.setOnClickListener(new View.OnClickListener() {

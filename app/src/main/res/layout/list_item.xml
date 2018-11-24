@@ -4,25 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="@dimen/padding_LinearLayout">
 
     <TextView
         android:id="@+id/song_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        tools:text="Supersonic" />
+        tools:text="@string/song_name_text_view" />
 
     <TextView
         android:id="@+id/artist_name_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
-        tools:text="Oasis" />
+        tools:text="@string/artist_name_text_view" />
 
     <ImageView
         android:id="@+id/list_item_icon"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/contentDescription_ImageView_list_item" />
 
 </LinearLayout>

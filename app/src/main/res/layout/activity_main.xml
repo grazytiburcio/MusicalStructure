@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/marginTop_ImageView"
         android:src="@drawable/youplay_logo" />
 
     <Button
@@ -24,11 +24,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="20dp"
-        android:background="#E651FF"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
+        android:layout_marginBottom="@dimen/marginBottom_Button"
+        android:background="@color/colorButtonNormal"
+        android:paddingEnd="@dimen/paddingRight_Button"
+        android:paddingLeft="@dimen/paddingLeft_Button"
+        android:paddingRight="@dimen/paddingRight_Button"
+        android:paddingStart="@dimen/paddingLeft_Button"
         android:text="@string/get_started"
-        android:textColor="#FFFFFF" />
+        android:textColor="@color/colorAccent" />
 
 </RelativeLayout>

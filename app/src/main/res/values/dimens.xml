@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop_ImageView">20dp</dimen>
+    <dimen name="marginBottom_Button">20dp</dimen>
+    <dimen name="paddingLeft_Button">15dp</dimen>
+    <dimen name="paddingRight_Button">15dp</dimen>
+    <dimen name="paddingBottom_ListView">5dp</dimen>
+    <dimen name="paddingLeft_ListView">5dp</dimen>
+    <dimen name="paddingRight_ListView">5dp</dimen>
+    <dimen name="paddingTop_ListView">5dp</dimen>
+    <dimen name="padding_LinearLayout">16dp</dimen>
+    <dimen name="padding_TableLayout">10dp</dimen>
+</resources>

@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the View that shows the ExploreActivity
-        Button getStartedbutton = (Button) findViewById(R.id.button_getStarted);
+        Button getStartedButton = (Button) findViewById(R.id.button_getStarted);
 
         // Set a click listener on that View
-        getStartedbutton.setOnClickListener(new View.OnClickListener() {
+        getStartedButton.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Get Started Button is clicked on.
             @Override
             public void onClick(View view) {

@@ -16,24 +16,24 @@ public class NowPlayingActivity extends AppCompatActivity {
         //Create an ArrayList of songs
         ArrayList<Songs> songs = new ArrayList<Songs>();
 
-        songs.add(new Songs("1. Supersonic", "Oasis", R.drawable.ic_stop));
-        songs.add(new Songs("2. Yellow", "Coldplay", R.drawable.ic_play));
-        songs.add(new Songs("3. Times Like These", "Foo Fighthers", R.drawable.ic_play));
-        songs.add(new Songs("4. Use Somebody", "Kings of Leon", R.drawable.ic_play));
-        songs.add(new Songs("5. Lake Of Fire", "Nirvana", R.drawable.ic_play));
-        songs.add(new Songs("6. Sonnet", "The Verve", R.drawable.ic_play));
-        songs.add(new Songs("7. Fake Plastic Trees", "Radiohead", R.drawable.ic_play));
-        songs.add(new Songs("8. The A Team", "Ed Sheeran", R.drawable.ic_play));
-        songs.add(new Songs("9. Close To Me", "The Cure", R.drawable.ic_play));
-        songs.add(new Songs("10. Evenflow", "Pearl Jam", R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicOne), getString(R.string.artistOasis), R.drawable.ic_stop));
+        songs.add(new Songs(getString(R.string.musicTwo), getString(R.string.artistColdplay), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicThree), getString(R.string.artistFooFighters), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicFour), getString(R.string.artistKingsOfLeon), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicFive), getString(R.string.artistNirvana), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicSix), getString(R.string.artistTheVerve), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicSeven), getString(R.string.artistRadiohead), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicEight), getString(R.string.artistEdSheeran), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicNine), getString(R.string.artistTheCure), R.drawable.ic_play));
+        songs.add(new Songs(getString(R.string.musicTen), getString(R.string.artistPearlJam), R.drawable.ic_play));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Songs.
         SongsAdapter adapter = new SongsAdapter(this, songs);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // activity_nowplaying.xmlg.xml layout file.
-        ListView listView = (ListView) findViewById(R.id.list);
+        // activity_nowplaying.xml layout file.
+        ListView listView = findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
         // {@link ListView} will display list items for each song in the list of songs.
