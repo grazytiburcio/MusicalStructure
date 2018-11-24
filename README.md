@@ -1,5 +1,23 @@
 # MusicalStructure
-Musical Structure App made with Udacity. This project is part of Android Basics by Google - Nanodegree Program.
+Musical Structure (Project 4) made with Udacity. This project is part of Android Basics by Google - Nanodegree Program.
+
+Project Overview: The goal is to design and layout the flow for the structure of a Music Player app using Intents, New Activities, Arraylists, Loops and Custom Classes.
+
+• Designing an app experience to achieve a certain goal
+
+• Creating new activities
+
+• Using explicit Intents to link between activities in your app
+
+• Using OnClickListeners to add behavior to buttons using Java code
+
+• Creating your own Custom Class
+
+• Looping through an ArrayList
+
+• Populating a ListView or GridView with an ArrayAdapter
+
+Note that for this project, the app does not actually need to play music.
 
 ![Alt text](https://lh3.googleusercontent.com/zNd_PpKnTwUDyO6hxwl2zf6L2lfQRXHuAmIPhSvNUxin7tykJfe_Td6LNm3lAhQ0RJQ3EVY0_-FQHFGPQmf3D1mlTuC7HEyDEW95i9yq6vYfZeQgAyOpKTl_64edjPN2hb-6EYMyhl8EsNgfsbaSYFi-yGGI3Ro0iNPt_MV2n5eElIuI6sokZzWTq34axV2xEJYlHdh6gl4q8IejaiJoI4SZ2uX7ElpEvgDeAr-47Jjj-7tuKHwH8NnGQkugbr80nowLsbnofEhsaLeNE0cCuInAQ9kq2D4dDs_3HluSYHUULMh6n1YZDXrJDGPzpV1GpfZne5U0vwPd17b8qlkwpynL-n8SZ5jvTYddlUQ7quoui5umyizPQVPSkJEac89ow_MWi8-H178UEV880aEdod2JbocxpVBtuS7Q739LIYd63MDqFBGsAFlh_0Eyz7LF5-g-0YlywfZgYpk8ujLIoEry4ErMfhg8yM0Zr8SmDpWudnFWMOAoH1zo7fhnr59Av1eIp8Fw72-UBvBNaq-aVv8slZzVCWFWscaiPVXSAR62RCVHvFtXGXTynPBiWngvq8E9lxTIf9D7zkHRvfVt3iO_gzbx71qKONPxWG4=w371-h662-no "Screenshot 1")
 
